@@ -1,0 +1,26 @@
+# 先忽略所有
+*
+
+# 再逐级放行需要的目录
+!src/
+!src/models/
+!src/models/**
+!src/scripts/
+!src/scripts/**
+!src/tools/
+!src/tools/**
+!config/
+!config/**
+
+# 放行 .gitignore 本身
+!.gitignore
+
+
+
+# 无论如何都排除的杂项
+__pycache__/
+*.py[cod]
+*.pth
+*.log
+.vscode/
+.idea

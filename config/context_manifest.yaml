@@ -1,0 +1,102 @@
+# config/context_manifest.yaml
+# 场景配对表：每个场景的影像文件夹 + 点标签路径
+
+# root: "D:/myProgramme/penguin_net"
+root: "D:/myProgramme/penguin_net-main/LandsatSample"
+
+scenes:
+  # - id: "1411"
+  #   image_dir: "1411"
+  #   label_path: "1411/L1411P.shp"
+  #   split: "val"
+  #   sample_num: [500, 200, 400, 300, 100, 300, 100, 200]
+
+  # - id: "1612"
+  #   image_dir: "1612"
+  #   label_path: "1612/L1612Z.shp"
+  #   split: "train"
+  #   sample_num: [500, 200, 400, 300, 100, 300, 100, 200]
+
+  # - id: "2411"
+  #   image_dir: 2411
+  #   label_path: 2411/L2411D.shp
+  #   split: "train"
+  #   sample_num: [500, 200, 400, 300, 100, 300, 100, 200]
+
+  # - id: "2412"
+  #   image_dir: 2412
+  #   label_path: 2412/L2412D.shp
+  #   split: "train"
+  #   sample_num: [500, 200, 400, 300, 100, 300, 100, 200]
+  
+  - id: "keb20241118"
+    image_dir: img/keb20241118
+    label_path: data/LS_keb20241118.shp
+    split: "train"
+    sample_num: [500, 0, 400, 300, 100, 300, 100, 200]
+
+  - id: "wst20201206"
+    image_dir: img/wst20201206
+    label_path: data/LS_wst20201206.shp
+    split: "train"
+    sample_num: [200, 0, 200, 100, 50, 100, 50, 100]
+
+  - id: "wst20231207"
+    image_dir: img/wst20231207
+    label_path: data/LS_wst20231207.shp
+    split: "train"
+    sample_num: [100, 0, 100, 100, 30, 100, 30, 60]
+  
+  - id: "wst20241122"
+    image_dir: img/wst20241122
+    label_path: data/LS_wst20241122.shp
+    split: "train"
+    sample_num: [400, 0, 300, 300, 100, 300, 100, 200]
+
+  - id: "wst20251117"
+    image_dir: img/wst20251117
+    label_path: data/LS_wst20251117.shp
+    split: "val"
+    sample_num: [400, 0, 300, 300, 100, 300, 100, 100]
+
+  # - id: "2018"
+  #   image_dir: img/2018
+  #   label_path: data/2018.shp
+  #   split: "train"
+  #   sample_num: [400, 300, 300, 300, 100, 300, 100, 200]
+
+  # - id: "2020_7_add"
+  #   image_dir: img/2020_7_add
+  #   label_path: data/2020_7_add.shp
+  #   split: "train"
+  #   sample_num: [500, 500, 400, 400, 200, 400, 100, 200]
+
+  # - id: "2022_15"
+  #   image_dir: img/2022_15
+  #   label_path: data/2022_15.shp
+  #   split: "val"
+  #   sample_num: [400, 200, 200, 200, 100, 300, 100, 200]
+
+  # - id: "2022_18"
+  #   image_dir: img/2022_18
+  #   label_path: data/2022_18.shp
+  #   split: "test"
+  #   sample_num: [400, 200, 200, 200, 100, 300, 100, 200]
+
+  # - id: "2023_21"
+  #   image_dir: img/2023_21
+  #   label_path: data/2023_21.shp
+  #   split: "train"
+  #   sample_num: [400, 300, 300, 300, 100, 300, 100, 200]
+
+  # - id: "2024_11_27_d"
+  #   image_dir: img/2024_11_27_d
+  #   label_path: data/2024_11_27_d.shp
+  #   split: "val"
+  #   sample_num: null   # 全部使用
+
+  # - id: "2022_11_12_d"
+  #   image_dir: img/2022_11_12_d
+  #   label_path: data/2022_11_12_d.shp
+  #   split: "train"
+  #   sample_num: null   # 全部使用
